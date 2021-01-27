@@ -1,34 +1,18 @@
 <template>
 	<view class="container">
-		<view class="div-table">
-			<view class="div-table-thead">
-				<view class="div-table-tr">
-					<view class="div-table-th border-top">张三</view>
-					<view class="div-table-th border-top">李四</view>
-					<view class="div-table-th border-top">王五</view>
-				</view>
+		<view class="d-table border">
+			<view class="d-tr">
+				<view class="d-th">张三</view>
+				<view class="d-th border-left">李四</view>
+				<view class="d-th border-left">王五</view>
 			</view>
 		</view>
-		<scroll-view scroll-y="true" style="height: 200upx;">
-			<view class="div-table">
-				<view class="div-table-tbody" style="width:100%">
-					<view class="div-table-tr">
-						<view class="div-table-td border-top">张三</view>
-						<view class="div-table-td border-top">李四</view>
-						<view class="div-table-td border-top">王五</view>
-					</view>
-					<view class="div-table-tr">
-						<view class="div-table-td border-top">张三</view>
-						<view class="div-table-td border-top">李四</view>
-						<view class="div-table-td border-top">王五</view>
-					</view>
-				</view>
-				<view class="div-table-tfoot" style="width:100%">
-					<view class="div-table-tr">
-						<view class="div-table-td border-top border-bottom">张三</view>
-						<view class="div-table-td border-top border-bottom">李四</view>
-						<view class="div-table-td border-top border-bottom">王五</view>
-					</view>
+		<scroll-view style="height: 200upx;" class="border-bottom" scroll-y>
+			<view class="d-table border" style="border-top: 0;border-bottom: 0;">
+				<view class="d-tr" v-for="i in 10" :key="i">
+					<view class="d-td" :class="{'border-top':i>1}">张三</view>
+					<view class="d-td border-left" :class="{'border-top':i>1}">李四</view>
+					<view class="d-td border-left" :class="{'border-top':i>1}">王五</view>
 				</view>
 			</view>
 		</scroll-view>
@@ -36,19 +20,15 @@
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-
-			};
-		}
+export default {
+	data() {
+		return {};
 	}
+};
 </script>
 
 <style lang="scss">
-	@import url("../../common/common.css");
-
-	.div-table {
-		background-color: white;
-	}
+.container {
+	padding: 10rpx;
+}
 </style>

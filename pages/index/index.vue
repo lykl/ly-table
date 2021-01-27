@@ -1,5 +1,5 @@
 <template>
-	<view class="content">
+	<view class="content" style="padding-bottom: 50rpx;">
 		<text class="title">普通表格:</text>
 		<normal></normal>
 		<text class="title">含checkbox表格:</text>
