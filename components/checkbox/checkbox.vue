@@ -2,16 +2,16 @@
 	<view class="container">
 		<view class="d-table border">
 			<view class="d-tr" v-for="i in 5" :key="i">
-				<view class="d-th border-top">
+				<view class="d-td border-top" style="width: 100rpx;">
 					<checkbox-group name="">
 						<label>
 							<checkbox value="1" /><text></text>
 						</label>
 					</checkbox-group>
 				</view>
-				<view class="d-th border-top border-left">张三</view>
-				<view class="d-th border-top border-left">李四</view>
-				<view class="d-th border-top border-left">王五</view>
+				<view class="d-td border-top border-left">张三</view>
+				<view class="d-td border-top border-left">李四</view>
+				<view class="d-td border-top border-left">王五</view>
 			</view>
 		</view>
 	</view>

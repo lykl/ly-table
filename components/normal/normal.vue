@@ -1,6 +1,6 @@
 <template>
 	<view class="container">
-		<view class="d-table border">
+		<view class="d-table border" v-for="item in typeList" :key="item" :class="[item, 'margin-bottom-10']">
 			<view class="d-thead">
 				<view class="d-tr">
 					<view class="d-th">张三</view>
@@ -27,17 +27,17 @@
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				
-			};
-		}
+export default {
+	data() {
+		return {
+			typeList: ['normal', 'primary', 'success', 'warning', 'danger', 'info','gray']
+		};
 	}
+};
 </script>
 
 <style lang="scss">
-	.container{
-		padding: 10rpx;
-	}
+.container {
+	padding: 10rpx;
+}
 </style>

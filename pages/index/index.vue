@@ -48,5 +48,6 @@
 	.title{
 		font-size: 32upx;
 		margin-bottom: 10upx;
+		margin-left: 10rpx;
 	}
 </style>

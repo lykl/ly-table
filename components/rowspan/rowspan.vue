@@ -10,7 +10,7 @@
 				<view class="d-td">
 					<view class="d-table">
 						<view class="d-tr">
-							<view class="d-td border-left">张三</view>
+							<view class="d-td border-top border-left">张三</view>
 						</view>
 					</view>
 				</view>
