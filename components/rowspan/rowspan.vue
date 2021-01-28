@@ -2,9 +2,9 @@
 	<view class="container">
 		<view class="d-table border">
 			<view class="d-tr">
-				<view class="d-th border-top border-bottom">张三</view>
-				<view class="d-th border-top border-left border-bottom">李四</view>
-				<view class="d-th border">王五</view>
+				<view class="d-th border-top">张三</view>
+				<view class="d-th border-top border-left">李四</view>
+				<view class="d-th border-top border-left border-right">王五</view>
 			</view>
 			<view class="d-tr">
 				<view class="d-td">

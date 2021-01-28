@@ -9,22 +9,18 @@
 	background-color: white;
 	.d-table {
 		height: 100%;
-		.d-tr {
-			&:first-child {
-				.d-td{
-					&.border-bottom {
-						border-top: none;
-					}
-				}
-			}
-			&:first-child {
-				.d-td{
-					&.border-top {
-						border-top: none;
-					}
-				}
-			}
-		}
+		// .d-tr {
+		// 	&:first-child {
+		// 		.d-td{
+		// 			&.border-bottom {
+		// 				border-bottom: none;
+		// 			}
+		// 			&.border-top {
+		// 				border-top: none;
+		// 			}
+		// 		}
+		// 	}
+		// }
 	}
 	input.borderInput {
 		border: 2upx solid #ccc;
