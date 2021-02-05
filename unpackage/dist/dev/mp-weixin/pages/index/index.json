@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "normal": "/components/normal/normal",
+    "rowspan": "/components/rowspan/rowspan",
+    "colspan": "/components/colspan/colspan",
+    "checkbox-table": "/components/checkbox/checkbox",
+    "fixed-header": "/components/normal-fixed-header/normal-fixed-header",
+    "fixed-left": "/components/normal-fixed-left/normal-fixed-left"
+  }
+}

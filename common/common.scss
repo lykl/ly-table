@@ -42,6 +42,7 @@ page {
 	font-size: 28upx;
 	word-break: break-all;
 	background-color: white;
+	border-collapse: collapse;
 	&.primary {
 		&.dark {
 			.d-thead {
@@ -147,14 +148,20 @@ page {
 			color: #fff;
 		}
 	}
-	&.gray{
+	&.gray {
 		.d-thead {
 			background-color: #aaa;
 			color: #fff;
 		}
 	}
+	.d-td,.d-th{
+		@extend .border;
+	}
 	.d-table {
 		height: 100%;
+		.d-td,.d-th{
+			@extend .noBorder;
+		}
 		// .d-tr {
 		// 	&:first-child {
 		// 		.d-td{
@@ -205,17 +212,20 @@ page {
 	font-weight: 600;
 }
 .border-top {
-	border-top: 1upx solid #efefef;
+	border-top: 1upx solid #efefef!important;
 }
 .border-left {
-	border-left: 1upx solid #efefef;
+	border-left: 1upx solid #efefef!important;
 }
 .border-bottom {
-	border-bottom: 1upx solid #efefef;
+	border-bottom: 1upx solid #efefef!important;
 }
 .border-right {
-	border-right: 1upx solid #efefef;
+	border-right: 1upx solid #efefef!important;
 }
 .border {
 	border: 1upx solid #efefef;
+}
+.noBorder{
+	border: 0;
 }

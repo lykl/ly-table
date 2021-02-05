@@ -1,50 +1,50 @@
 <template>
 	<view class="container">
-		<view class="d-table border">
+		<view class="d-table">
 			<view class="d-tr">
-				<view class="d-th border-top">张三</view>
-				<view class="d-th border-top border-left">李四</view>
-				<view class="d-th border-top border-left border-right">王五</view>
+				<view class="d-th">张三</view>
+				<view class="d-th">李四</view>
+				<view class="d-th">王五</view>
 			</view>
 			<view class="d-tr">
 				<view class="d-td">
 					<view class="d-table">
 						<view class="d-tr">
-							<view class="d-td border-top border-left">张三</view>
+							<view class="d-td">张三</view>
 						</view>
 					</view>
 				</view>
 				<view class="d-td">
 					<view class="d-table">
 						<view class="d-tr">
-							<view class="d-td border-top border-left">李四</view>
+							<view class="d-td border-bottom">李四</view>
 						</view>
 						<view class="d-tr">
-							<view class="d-td border-top border-left">李四</view>
+							<view class="d-td border-bottom">李四</view>
 						</view>
 						<view class="d-tr">
-							<view class="d-td border-top border-left">李四</view>
+							<view class="d-td border-bottom">李四</view>
 						</view>
 					</view>
 				</view>
 				<view class="d-td">
 					<view class="d-table">
 						<view class="d-tr">
-							<view class="d-td border-top border-left border-right">王五</view>
+							<view class="d-td border-bottom">王五</view>
 						</view>
 						<view class="d-tr">
-							<view class="d-td border-top border-left border-right">王五</view>
+							<view class="d-td border-bottom">王五</view>
 						</view>
 						<view class="d-tr">
-							<view class="d-td border-top border-left border-right">王五</view>
+							<view class="d-td border-bottom">王五</view>
 						</view>
 					</view>
 				</view>
 			</view>
 			<view class="d-tr">
-				<view class="d-td border-top">张三</view>
-				<view class="d-td border-top border-left">李四</view>
-				<view class="d-td border-top border-left">王五</view>
+				<view class="d-td">张三</view>
+				<view class="d-td">李四</view>
+				<view class="d-td">王五</view>
 			</view>
 		</view>
 	</view>
