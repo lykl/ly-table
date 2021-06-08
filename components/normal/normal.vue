@@ -30,7 +30,7 @@
 export default {
 	data() {
 		return {
-			typeList: ['normal', 'primary', 'success', 'warning', 'danger', 'info','gray']
+			typeList: ['normal', 'large', 'middle', 'border-under', 'primary', 'success', 'warning', 'danger', 'info', 'gray']
 		};
 	}
 };

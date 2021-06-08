@@ -6,11 +6,11 @@
 		<scroll-view scroll-x class="border-right" style="width: 70%;">
 			<view class="d-table scroll-x">
 				<view class="d-tr" v-for="i in 4" :key="i">
-					<view style="width:124upx" :class="i === 1 ? 'd-th' : 'd-td'">李四</view>
-					<view style="width:124upx" :class="i === 1 ? 'd-th' : 'd-td'">王五</view>
-					<view style="width:124upx" :class="i === 1 ? 'd-th' : 'd-td'">王五</view>
-					<view style="width:124upx" :class="i === 1 ? 'd-th' : 'd-td'">王五</view>
-					<view style="width:124upx" :class="i === 1 ? 'd-th' : 'd-td'">王五</view>
+					<view style="width:124rpx" :class="i === 1 ? 'd-th' : 'd-td'">李四</view>
+					<view style="width:124rpx" :class="i === 1 ? 'd-th' : 'd-td'">王五</view>
+					<view style="width:124rpx" :class="i === 1 ? 'd-th' : 'd-td'">王五</view>
+					<view style="width:124rpx" :class="i === 1 ? 'd-th' : 'd-td'">王五</view>
+					<view style="width:124rpx" :class="i === 1 ? 'd-th' : 'd-td'">王五</view>
 				</view>
 			</view>
 		</scroll-view>

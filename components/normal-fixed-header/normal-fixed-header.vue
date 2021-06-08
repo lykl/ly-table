@@ -7,7 +7,7 @@
 				<view class="d-th">王五</view>
 			</view>
 		</view>
-		<scroll-view style="height: 200upx;" class="border-bottom" scroll-y>
+		<scroll-view style="height: 200rpx;" class="border-bottom border-right" scroll-y>
 			<view class="d-table">
 				<view class="d-tr" v-for="i in 10" :key="i">
 					<view class="d-td">张三</view>

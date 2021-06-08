@@ -8,11 +8,7 @@
 			</view>
 			<view class="d-tr">
 				<view class="d-td">
-					<view class="d-table">
-						<view class="d-tr">
-							<view class="d-td">张三</view>
-						</view>
-					</view>
+					张三
 				</view>
 				<view class="d-td">
 					<view class="d-table">
